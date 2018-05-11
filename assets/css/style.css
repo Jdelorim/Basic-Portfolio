@@ -26,13 +26,15 @@ body{
 }
 .jheader-right{
     float:right;
-    padding-right:275px;
+   /* padding-right:275px;*/
+   padding-right: 145px;
 }
 .bluebox{
     background-color:#4aaaa5;
     position: absolute;
     top: 0px;
-    left: 277px;
+   /* left: 277px;*/
+   left: 147px;
     width: 200px;
     padding: 25px 10px;
 }
