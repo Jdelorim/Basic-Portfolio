@@ -17,6 +17,10 @@ h1{
     border-bottom: 1.5px solid #cccccc;
     position: relative;
 } 
+.jheader-content{
+    width: 960px;
+    margin: 0 auto;
+}
 
 
 /*
@@ -63,28 +67,25 @@ h1{
     text-decoration: underline;
     text-decoration-color: #4aaaa5;
 }
-.jheader-right a:visted{
-    color:#ffffff;
+
+.jheader-right li a:visted{
+    color:#777777;
 }
-.jheader-right a:link{
+
+.jheader-right li a:link{
     text-decoration: none;
     color: #777777;
-
 }
-.jheader-right a:active{
+
+.jheader-right li a:active{
     color:#4aaaa5;
     text-decoration: underline;
     text-decoration-color: #4aaaa5;
 }
 
-     
+     /*body*/
 
-.jheader-content{
-    width: 960px;
-    margin: 0 auto;
-}
 
-   /*body*/
 
 .mybody{
     margin:0 auto;
@@ -94,10 +95,8 @@ h1{
     border: 1px solid #cccccc;
     padding: 25px;
     margin-bottom: 80px;
-    
-    
-
 }
+
 .mybody img{
     float:left;
     padding-right: 25px;
@@ -108,7 +107,6 @@ h1{
     margin-bottom: 24px;
 }
 .mybody h1{
-   
     padding-top: 15px;
     padding-bottom: 30px;
     border-bottom: 3px solid #dddddd;
@@ -116,7 +114,7 @@ h1{
 
 .myfooter{
     width: 100%;
-   /* position:fixed;*/
+   /* position:fixed; i think it looks better fixed */
     bottom: 0;
     color:#ffffff;
     text-align: center;
@@ -130,5 +128,75 @@ h1{
     margin-bottom: 5px;
    
 }
+/*    contact */
+
+.mybody-contact{
+    margin:0 auto;
+    background-color:#ffffff;
+    width:910px;
+    margin-top: 43px;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    margin-bottom: 80px;
+    color:#777777;
+}
+.mybody-contact h1{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+    font-weight: 400;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0px;
+   
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 12px 0px;
+   
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    padding: 10px 20px;
+    margin: 12px 0px;
+   cursor: pointer;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    
+
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0px;
+   
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.moveform{
+    margin-top:30px;
+  
+
+}
+
 
 
