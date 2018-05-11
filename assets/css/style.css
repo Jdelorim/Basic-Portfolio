@@ -110,6 +110,7 @@ h1{
     padding-top: 15px;
     padding-bottom: 30px;
     border-bottom: 3px solid #dddddd;
+    color:#4aaaa5;
 }
 
 .myfooter{
@@ -198,5 +199,34 @@ textarea{
 
 }
 
+/*  portfolio */
+
+.mybody-port{
+    margin:0 auto;
+    background-color:#ffffff;
+    width:910px;
+    margin-top: 43px;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    margin-bottom: 80px;
+    color:#777777;
+}
+.mybody-port h1{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+    font-weight: 400;
+}
+ h3{
+    background-color:#4aaaa5;
+    padding: 10px 34px;
+    float: left;
+    color:#ffffff; 
+    z-index: 3;  
+    position: absolute; 
+    margin-top:100px;
+    
+}
 
 
