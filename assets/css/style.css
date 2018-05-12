@@ -115,13 +115,14 @@ h1{
 
 .myfooter{
     width: 100%;
-   /* position:fixed; i think it looks better fixed */
+    position:fixed;
     bottom: 0;
     color:#ffffff;
     text-align: center;
     background-color:#666666;
     padding-top: 45px;
     border-top: 8px solid #4aaaa5;
+    z-index: 5;
 }
 .myfooter p{
     font-size: 12px;
@@ -218,15 +219,89 @@ textarea{
     color: #4aaaa5;
     font-weight: 400;
 }
- h3{
+ .gendesign h3{
     background-color:#4aaaa5;
-    padding: 10px 34px;
+    padding: 15px;
+    width: 187px;
     float: left;
     color:#ffffff; 
     z-index: 3;  
     position: absolute; 
-    margin-top:100px;
+    margin-top:110px;
+    text-align: center;
     
+}
+.gendesign{
+   padding-top:8px;
+}
+.gamedev {
+    padding-top:35px;
+}
+.gamedev h3{
+    background-color:#4aaaa5;
+    padding: 15px;
+    width: 187px;
+    float: left;
+    color:#ffffff; 
+    z-index: 3;  
+    position: absolute; 
+    margin-top:110px;
+    text-align:center;
+    
+}
+.lectures {
+    padding-top:35px;
+}
+.lectures h3{
+    background-color:#4aaaa5;
+    padding: 15px;
+    width: 187px;
+    float: left;
+    color:#ffffff; 
+    z-index: 3;  
+    position: absolute; 
+    margin-top:110px;
+    text-align: center;
+}
+
+.realtime {
+    padding-top:35px;
+    margin-left: 260px;
+    position: absolute;
+    top:246px;
+
+
+}
+.realtime h3{
+    background-color:#4aaaa5;
+    padding: 15px;
+    width: 187px;
+    float: left;
+    color:#ffffff; 
+    z-index: 3;  
+    position: absolute; 
+    margin-top:110px;
+    text-align:center;
+}
+
+.graphicd {
+    padding-top:35px;
+    margin-left: 260px;
+    position: absolute;
+    top:448px;
+
+
+}
+.graphicd h3{
+    background-color:#4aaaa5;
+    padding: 15px;
+    width: 187px;
+    float: left;
+    color:#ffffff; 
+    z-index: 3;  
+    position: absolute; 
+    margin-top:110px;
+    text-align: center;
 }
 
 
